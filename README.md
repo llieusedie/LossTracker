@@ -2,6 +2,7 @@
 Simple terrorist-losses-tracking app made with SwiftUI and Ukraine in heart.
 
 Special thanks to [WEBSPARK](https://www.webspark.com/) for providing icons and [API data](https://russianwarship.rip/)
+
 GLORY TO UKRAINE!
 
 # Features:
