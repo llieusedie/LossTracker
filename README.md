@@ -3,7 +3,7 @@ Simple terrorist-losses-tracking app made with SwiftUI and Ukraine in heart.
 
 #Features:
 
-– *** JSON Networking***
+– ***JSON Networking***
 
 – ***MVVM Design Pattern***
 
