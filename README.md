@@ -1,6 +1,8 @@
 # LossTracker
 Simple terrorist-losses-tracking app made with SwiftUI and Ukraine in heart.
+
 Special thanks to [WEBSPARK](https://www.webspark.com/) for providing icons and [API data](https://russianwarship.rip/)
+GLORY TO UKRAINE!
 
 # Features:
 
@@ -8,7 +10,7 @@ Special thanks to [WEBSPARK](https://www.webspark.com/) for providing icons and 
 
 – ***MVVM Design Pattern***
 
-– ***Unbelievable level of hate towards terrorists who bomb our cities, kill our people and destroys our families***
+– ***Unbelievable level of endless hate towards terrorists who bomb our cities, kill our people and destroys our families***
 
 # Example
 
