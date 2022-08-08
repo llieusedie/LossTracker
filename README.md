@@ -11,4 +11,4 @@ Simple terrorist-losses-tracking app made with SwiftUI and Ukraine in heart.
 
 # Example
 
-![]([LossTracker.gif](https://github.com/llieusedie/LossTracker/blob/main/LossTracker.gif))
+!([LossTracker](https://github.com/llieusedie/LossTracker/blob/main/LossTracker.gif))
