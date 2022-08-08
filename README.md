@@ -10,3 +10,4 @@ Simple terrorist-losses-tracking app made with SwiftUI and Ukraine in heart.
 – ***Unbelievable level of hate towards terrorists who bomb our cities, kill our people and destroys our families***
 
 # Example
+![](https://github.com/llieusedie/LossTracker/blob/main/LossTracker.gif)
