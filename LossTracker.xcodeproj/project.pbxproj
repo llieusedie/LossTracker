@@ -7,18 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B2C9F45288AE628002F38FF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C9F44288AE628002F38FF /* ViewModel.swift */; };
+		6B7E1962288D7F3500374609 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7E1961288D7F3500374609 /* Background.swift */; };
 		6BC869FE28846A5300832A7E /* LossTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC869FD28846A5300832A7E /* LossTrackerApp.swift */; };
 		6BC86A0028846A5300832A7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC869FF28846A5300832A7E /* ContentView.swift */; };
 		6BC86A0228846A5400832A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC86A0128846A5400832A7E /* Assets.xcassets */; };
 		6BC86A0528846A5400832A7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC86A0428846A5400832A7E /* Preview Assets.xcassets */; };
+		6BC86A0C2884704D00832A7E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC86A0B2884704D00832A7E /* Model.swift */; };
+		6BD70535289D2276004BB7C4 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD70534289D2276004BB7C4 /* GridView.swift */; };
+		6BD70539289D24CD004BB7C4 /* PersonnelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD70538289D24CD004BB7C4 /* PersonnelView.swift */; };
+		6BD7053F289F1F90004BB7C4 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7053E289F1F90004BB7C4 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6BD7055628A133EC004BB7C4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6B2C9F44288AE628002F38FF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		6B7E1961288D7F3500374609 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		6BC869FA28846A5300832A7E /* LossTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LossTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC869FD28846A5300832A7E /* LossTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossTrackerApp.swift; sourceTree = "<group>"; };
 		6BC869FF28846A5300832A7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6BC86A0128846A5400832A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BC86A0428846A5400832A7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6BC86A0B2884704D00832A7E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6BD70534289D2276004BB7C4 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		6BD70538289D24CD004BB7C4 /* PersonnelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelView.swift; sourceTree = "<group>"; };
+		6BD7053E289F1F90004BB7C4 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		6BD7054628A133E9004BB7C4 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6BD7054828A133E9004BB7C4 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,10 +59,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B7E1963288EC2B900374609 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6BD7053E289F1F90004BB7C4 /* InfoView.swift */,
+				6BC869FF28846A5300832A7E /* ContentView.swift */,
+				6B7E1961288D7F3500374609 /* Background.swift */,
+				6BD70534289D2276004BB7C4 /* GridView.swift */,
+				6BD70538289D24CD004BB7C4 /* PersonnelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6BC869F128846A5300832A7E = {
 			isa = PBXGroup;
 			children = (
 				6BC869FC28846A5300832A7E /* LossTracker */,
+				6BD7054528A133E9004BB7C4 /* Frameworks */,
 				6BC869FB28846A5300832A7E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,7 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				6BC869FD28846A5300832A7E /* LossTrackerApp.swift */,
-				6BC869FF28846A5300832A7E /* ContentView.swift */,
+				6B7E1963288EC2B900374609 /* Views */,
+				6BD70536289D2289004BB7C4 /* ViewModels */,
+				6BD70537289D2291004BB7C4 /* Model */,
 				6BC86A0128846A5400832A7E /* Assets.xcassets */,
 				6BC86A0328846A5400832A7E /* Preview Content */,
 			);
@@ -67,6 +109,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6BD70536289D2289004BB7C4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6B2C9F44288AE628002F38FF /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6BD70537289D2291004BB7C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6BC86A0B2884704D00832A7E /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6BD7054528A133E9004BB7C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BD7054628A133E9004BB7C4 /* WidgetKit.framework */,
+				6BD7054828A133E9004BB7C4 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +144,7 @@
 				6BC869F628846A5300832A7E /* Sources */,
 				6BC869F728846A5300832A7E /* Frameworks */,
 				6BC869F828846A5300832A7E /* Resources */,
+				6BD7055628A133EC004BB7C4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -94,7 +162,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					6BC869F928846A5300832A7E = {
@@ -137,8 +205,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD7053F289F1F90004BB7C4 /* InfoView.swift in Sources */,
+				6BC86A0C2884704D00832A7E /* Model.swift in Sources */,
 				6BC86A0028846A5300832A7E /* ContentView.swift in Sources */,
+				6BD70535289D2276004BB7C4 /* GridView.swift in Sources */,
+				6B2C9F45288AE628002F38FF /* ViewModel.swift in Sources */,
 				6BC869FE28846A5300832A7E /* LossTrackerApp.swift in Sources */,
+				6B7E1962288D7F3500374609 /* Background.swift in Sources */,
+				6BD70539289D24CD004BB7C4 /* PersonnelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +336,7 @@
 		6BC86A0928846A5400832A7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +366,7 @@
 		6BC86A0A28846A5400832A7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
